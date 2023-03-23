@@ -1,0 +1,7 @@
+{
+    "ros.distro": "foxy",
+    "files.associations": {
+        "string.h": "c",
+        "cstdlib": "c"
+    }
+}
