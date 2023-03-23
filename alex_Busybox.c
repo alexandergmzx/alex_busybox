@@ -32,6 +32,8 @@ int main(int argc, char *argv[]) {
             command_ex = "./alex_lsmod";
         } else if (strcmp(argv[1], "uptime") == 0) {
             command_ex = "./alex_uptime";
+        } else if (strcmp(argv[1], "chmod") == 0) {
+            command_ex = "./alex_chmod";
         } else if (strcmp(argv[1], "cp") == 0) {
             command_ex = "./alex_copy";
         } else if (strcmp(argv[1], "tiempo") == 0) {
