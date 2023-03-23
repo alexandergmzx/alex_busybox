@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Parse the mode argument
+//    mode_t mode = strtol(argv[1], NULL, 8);
     char *mode_str = argv[1];
     int mode = strtol(mode_str, NULL, 8);
 

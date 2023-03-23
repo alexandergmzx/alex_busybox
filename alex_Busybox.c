@@ -36,8 +36,6 @@ int main(int argc, char *argv[]) {
             command_ex = "./alex_chmod";
         } else if (strcmp(argv[1], "cp") == 0) {
             command_ex = "./alex_copy";
-        } else if (strcmp(argv[1], "tiempo") == 0) {
-            command_ex = "uptime -p";
         } else {
             fprintf(stderr, "Unknown command: %s\n", argv[1]);
             exit(EXIT_FAILURE);
